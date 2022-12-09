@@ -4,14 +4,15 @@
 
 /**
  *main - main block
- * description: get a random number 
- * *return 0 
+ *description: get a random number 
+ *return 0 
  */
 
 int main(void)
 {
 	int n;
 	srand(time(0));
+
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
