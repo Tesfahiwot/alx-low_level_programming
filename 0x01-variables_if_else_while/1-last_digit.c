@@ -5,11 +5,13 @@
 /**
  *main - main block
  *description: get a random number
+ *Return: Always 0
  */
 int main(void)
 {
 	int n;
 	int x;
+
 	n = rand() - RAND_MAX / 2;
 
 	x = n % 10;
