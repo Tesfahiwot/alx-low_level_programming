@@ -6,34 +6,23 @@
  */
 int main(void)
 {
-	int c;
-	int d;
-	int e = 0;
-
-	while (e < 10)
+	int i, j, k;
+	for (i = '0'; i <= '9'; i++)
 	{
-		d = 0;
-		while (d < 0)
+		for (j = i + 1; j <= '9'; j++)
 		{
-			c = 0;
-			while (c < 10)
+			for (k = j + 1; k <= '9'; k++)
 			{
-				if (c != d && d != e && e < d && d < c)
+				putchar(i);
+				putchar(j);
+				putchar(k);
+				if (i != '7' || j != '8' || k != '9')
 				{
-					putchar('0' + e);
-					putchar('0' + d);
-					putchar('0' + c);
-					if (c + d + e != 9 + 8 + 7)
-					{
-						putchar(',');
-						putchar(' ');
-					}
+					putchar(',');
+					putchar(' ');
 				}
-				c++;
 			}
-			d++;
 		}
-		e++;
 	}
 	putchar('\n');
 	return (0);
