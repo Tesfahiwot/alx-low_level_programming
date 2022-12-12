@@ -13,7 +13,10 @@ int main(void)
 		if (n <= 8)
 		{
 			putchar(',');
+			for (n <= 9)
+			{
 			putchar(' ');
+			}
 		}
 		n++;
 	}
