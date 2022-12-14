@@ -20,7 +20,7 @@ int main(void)
 		}
 		printf("%lu", f1);
 
-		tmp = (f1 + f2)  mx;
+		tmp = (f1 + f2) % mx;
 		tmpo = f10 + f20 + (f1 + f2) / mx;
 		f1 = f2;
 		f10 = f20;
