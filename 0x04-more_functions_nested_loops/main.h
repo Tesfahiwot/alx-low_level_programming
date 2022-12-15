@@ -2,6 +2,6 @@
 #define MAIN_H
 
 void print_number(int n);
-nt _isupper(int c);
+int _isupper(int c);
 
 #endif
