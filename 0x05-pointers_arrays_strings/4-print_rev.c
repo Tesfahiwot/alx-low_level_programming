@@ -1,4 +1,4 @@
-#include "malin.h"
+#include "main.h"
 /**
  * _rev - prints a string in a reverse followed by a new line
  * @s: char input
