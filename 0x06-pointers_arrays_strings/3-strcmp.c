@@ -45,6 +45,5 @@ break;
 
 c++;
 }
-
 return (r);
 }
