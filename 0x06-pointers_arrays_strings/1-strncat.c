@@ -25,6 +25,5 @@ j++;
 }
 
 dest[dlen + n + 1] = '\0';
-
 return (dest);
 }
